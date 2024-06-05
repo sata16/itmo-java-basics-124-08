@@ -14,7 +14,7 @@ public class Main {
         System.out.println(res1);
         //1.3
         int number = 10500;
-        int result = (number/10)/10;
+        double result = (number/10)/10;
         System.out.println(result);
         //1.4
         double a = 3.6;
