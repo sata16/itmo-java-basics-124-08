@@ -17,19 +17,20 @@ public class Car {
     public Car() {
 
     }
-    public Car(String color){
+
+    public Car(String color) {
         this.color = color;
     }
+
     public Car(String color, Double weight) {
         this.color = color;
         this.weight = weight;
     }
 
     //метод для вывода данных класса
-    public void printCar(Car car){
+    public void printCar(Car car) {
         System.out.println(car);
     }
-
 
 
 }

@@ -7,7 +7,7 @@ public class House {
     private int buildYear;
     private NameHouse namehouse;
 
-    public House(){
+    public House() {
 
     }
 
@@ -21,31 +21,31 @@ public class House {
     }
 
     //метод для установки всех значений
-    public void initialize(Integer numberFloor,int buildYear,NameHouse namehouse){
+    public void initialize(Integer numberFloor, int buildYear, NameHouse namehouse) {
         this.numberFloor = numberFloor;
         this.buildYear = buildYear;
         this.namehouse = namehouse;
     }
+
     //метод для вывода всех значений
-    public String printHouse(){
-        if(ageHouse(this.buildYear)==0){
+    public String printHouse() {
+        if (ageHouse(this.buildYear) == 0) {
             return "Error year";
-        }
-        else {
+        } else {
 
             return ("Этаж = " + this.numberFloor + "\nГод постройки = " + this.buildYear +
                     "\nНаименование = " + this.namehouse + "\nКоличество лет = " + ageHouse(this.buildYear));
         }
 
     }
+
     //метод подсчета количества лет с момента постройки
-    public Integer ageHouse(int buildYear){
-        if(buildYear == 0 || buildYear>= 2024){
+    public Integer ageHouse(int buildYear) {
+        if (buildYear == 0 || buildYear >= 2024) {
             return 0;
-        }
-        else{
-            int current_year = 2024;
-            return current_year - buildYear;
+        } else {
+            int currentYear = 2024;
+            return currentYear - buildYear;
         }
 
     }

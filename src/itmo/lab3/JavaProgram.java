@@ -1,7 +1,7 @@
 package itmo.lab3;
 
 public class JavaProgram {
-    public  static void main(String[] args){
+    public static void main(String[] args) {
         //1
         Study study = new Study("Изучение Java - это просто!");
         System.out.println(study.printCourse());
