@@ -17,7 +17,9 @@ public class Main {
         System.out.println(res);
         //3
         String text3 = "Тучи бяка, дождь Бяка, метель БЯКА, а вот солнце и море небяка";
-        replaceWord(text3);
+        String word = "бяка";
+        String wordOfReplace = "[вырезано цензурой]";
+        replaceWord(text3,word,wordOfReplace);
         //4
         String t = "Мама мыла раму, мама мыла раму, мама мыла раму";
         String t2 = "Мама мыла";
