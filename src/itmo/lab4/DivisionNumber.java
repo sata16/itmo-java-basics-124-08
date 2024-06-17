@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class DivisionNumber {
     public static void printDivision(int[] number) {
-        System.out.print("Деление на 3 и 5: ");
+        System.out.print("Задание №2. Деление на 3 и 5: ");
         for (int i = 0; i < number.length; i++) {
             if (number[i] % 3 == 0 && number[i] % 5 == 0) {
                 System.out.print(number[i] + " ");
