@@ -36,12 +36,13 @@ public class Main {
         //System.out.println(linkedListNew);
 
         //4
-        Map<String, Integer> map = createUserMap();//Создаем мапу
+        Map<User, Integer> map = createUserMap();//Создаем мапу
         System.out.println("Ввести имя");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         User user = new User(name); // создаем юзера
-        searchName(map, user.getName()); // проверяем есть ли юзер в мапе
+        searchName(map, user); // проверяем есть ли юзер в мапе
+
 
 
     }
