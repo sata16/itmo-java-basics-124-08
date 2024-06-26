@@ -4,7 +4,8 @@ import java.util.*;
 
 import static itmo.lab9.NoDuplicates.noDuplicates;
 import static itmo.lab9.RandomNumbers.*;
-import static itmo.lab9.User.searchName;
+import static itmo.lab9.SearchName.searchName;
+
 import static itmo.lab9.UserMap.createUserMap;
 
 
