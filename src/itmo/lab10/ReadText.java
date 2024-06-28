@@ -11,7 +11,7 @@ public class ReadText {
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String input;
             while ((input = reader.readLine()) != null) {
-                str.add(input+"\n");
+                str.add(input);
                 //System.out.println(input);
             }
 

@@ -14,14 +14,14 @@ public class Main {
         List<String> strings = readText();
         System.out.println(strings);
         //2
-        String str = "Hello World! Hello World!";
-        File file = writeString(str,"files/output.txt");
-       // System.out.println(file);
+        String str = "Hello World! ";
+       writeString(str,"files/output.txt");
         //3
-        joinTextFromFiles(strings,file,"files/join.txt");
+        File file = new File("files/output.txt");
+       joinTextFromFiles(strings,file,"files/join.txt");
         //4
         File newfile = new File("files/forReplace.txt");
-        replaceSymbolsNotLetters(newfile);
+       replaceSymbolsNotLetters(newfile);
 
     }
 }
